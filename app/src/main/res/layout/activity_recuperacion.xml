@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <TextView
+        android:id="@+id/appname_login2"
+        android:layout_width="199dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/bakbak_one"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="147dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="73dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoicon" />
+
+    <TextView
+        android:id="@+id/recuperacontra_instruc"
+        android:layout_width="247dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="84dp"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="@string/correorecuperacion"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/recuperacontra_correo"
+        style="@style/EditTextRounded"
+        android:layout_width="240dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="84dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="@color/gray"
+        android:hint="@string/correo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recuperacontra_instruc"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonRecuperacion"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="228dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/enviar_recupera"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

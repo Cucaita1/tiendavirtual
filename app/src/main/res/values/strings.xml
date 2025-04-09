@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Foreingsup</string>
+    <string name="nombre">Juan Jose Cucaita Forero</string>
+    <string name="registro">Registrate</string>
+    <string name="Texto_intro">Inicia una nueva aventura con Foreingsup y descubre una nueva forma de ver el mundo</string>
+    <string name="texto_bienvenida_login">La nueva aventura esta por iniciar porfavor inicia secion</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="comienza">Comienza</string>
+    <string name="recupera_contraseña">Recupera tu contraseña</string>
+    <string name="ingreso_google">Ingresa con Google</string>
+    <string name="texto_registro">Ingrese sus datos</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confirma_contra">Confirma la contraseña</string>
+    <string name="telefono">Telefono</string>
+    <string name="terminos">Aceptar los terminos y condiciones</string>
+    <string name="yaregistrado">¿ya estas registrado? Inicia Seción</string>
+    <string name="correorecuperacion">Porfavor ingrese su correo electronico</string>
+    <string name="enviar_recupera">enviar</string>
+    <string name="loginbuttom">Ingresar</string>
+    <string name="editarperfil">Editar</string>
+    <string name="logoapp">logo de la app</string>
+    <string name="tiendavirtual">Tienda Virtual</string>
+    <string name="texto_bienvenida">bienvenida\n</string>
+    <string name="inicio">Inicio</string>
+    <string name="categorias">Categorias</string>
+    <string name="carrito">Carrito</string>
+    <string name="perfil">Perfil</string>
+    <string name="productos">Productos</string>
+    <string name="open_drawer">menu abierto\n</string>
+    <string name="close_drawer">menu cerrado\n</string>
+    <string name="ir_productos">ir a productos</string>
+
+</resources>

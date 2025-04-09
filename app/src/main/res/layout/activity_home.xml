@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    >
+
+    <TextView
+        android:id="@+id/nombreapp_home"
+        android:layout_width="374dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="@font/bakbak_one"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_home" />
+
+    <Button
+        android:id="@+id/button_home"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="111dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/comienza"
+        android:textSize="24sp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_home" />
+
+    <TextView
+        android:id="@+id/texto_home"
+        android:layout_width="284dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="@string/Texto_intro"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreapp_home" />
+
+    <ImageView
+        android:id="@+id/logo_home"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="61dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoicon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

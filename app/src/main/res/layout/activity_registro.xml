@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Registro"
+    android:background="@color/gray"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iv_logo_registro"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logoicon"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/nomappRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bakbak_one"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="34sp"
+        tools:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/instrucRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_registro"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        tools:text="@string/texto_registro" />
+
+    <EditText
+        android:id="@+id/editTextNombreReg"
+        style="@style/EditTextRounded"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="@color/gray"
+        android:hint="@string/nombres"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_login" />
+
+    <EditText
+        android:id="@+id/editTextApellidoReg"
+        style="@style/EditTextRounded"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/apellidos"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_login" />
+
+    <EditText
+        android:id="@+id/editTextCorreoReg"
+        style="@style/EditTextRounded"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/correo"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_login" />
+
+    <EditText
+        android:id="@+id/editTextTelefonoReg"
+        style="@style/EditTextRounded"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/telefono"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_login" />
+
+    <EditText
+        android:id="@+id/editTextContraseñaReg"
+        style="@style/EditTextRounded"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/contrasena"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_login" />
+
+    <EditText
+        android:id="@+id/editTextContraseñaConfiReg"
+        style="@style/EditTextRounded"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/confirma_contra"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_login" />
+
+    <CheckBox
+        android:id="@+id/ch_tycondiciones_registro"
+        android:layout_width="292dp"
+        android:layout_height="87dp"
+        android:text="@string/terminos" />
+
+    <Button
+        android:id="@+id/buttonRegistroR"
+        android:layout_width="263dp"
+        android:layout_height="74dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="3dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/registro"
+        android:textSize="24sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_login"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <Button
+        android:id="@+id/exit_registro"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:text="@string/yaregistrado"
+        android:textAlignment="textStart"
+        android:textColor="@color/orange"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
+</ScrollView>
